@@ -1,11 +1,34 @@
-li {
-  color: blue;
+
+html{
+    background-image: url(/home/daniel/Desktop/web-projects/test-site/images/coding-image.webp);
+    color: #ffffff;  
 }
 
-p {
-    color:red;
+
+h1{
+    font-family: 'Oswald', sans-serif;
 }
 
-h1 {
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+
+a:link, a:visited {
+    color: white;
+}
+
+a:hover {
+    color: red;
+}
+
+#afbetalingen {
     color: green;
 }
+p, li {
+    font-size: 16px;    
+    line-height: 2;
+    letter-spacing: 1px;
+    
+  }
+
